@@ -68,16 +68,16 @@ struct HomeUI: View {
                 }
             }.opacity(index == 0 ? 1 : 0)
             VStack{
-                Color.red
+                Color.red.ignoresSafeArea()
             }.opacity(index == 1 ? 1 : 0)
             VStack{
-                Color.yellow
+                Color.yellow.ignoresSafeArea()
             }.opacity(index == 2 ? 1 : 0)
             VStack{
-                Color.blue
+                Color.blue.ignoresSafeArea()
             }.opacity(index == 3 ? 1 : 0)
             VStack{
-                Color.pink
+                Color.pink.ignoresSafeArea()
             }.opacity(index == 4 ? 1 : 0)
             
             

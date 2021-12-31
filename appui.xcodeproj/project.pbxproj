@@ -11,6 +11,11 @@
 		B509A34B277F0A1D006E363F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509A34A277F0A1D006E363F /* ContentView.swift */; };
 		B509A34D277F0A21006E363F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B509A34C277F0A21006E363F /* Assets.xcassets */; };
 		B509A350277F0A21006E363F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B509A34F277F0A21006E363F /* Preview Assets.xcassets */; };
+		B509A357277F0AF2006E363F /* HomeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509A356277F0AF2006E363F /* HomeUI.swift */; };
+		B509A359277F0BC8006E363F /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509A358277F0BC8006E363F /* Utilities.swift */; };
+		B509A35C277F0DEE006E363F /* HomeNextUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509A35B277F0DEE006E363F /* HomeNextUI.swift */; };
+		B509A35E277F2A16006E363F /* CustomTabUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509A35D277F2A15006E363F /* CustomTabUI.swift */; };
+		B509A360277F2A25006E363F /* CustomTabCellUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509A35F277F2A25006E363F /* CustomTabCellUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		B509A34A277F0A1D006E363F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B509A34C277F0A21006E363F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B509A34F277F0A21006E363F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B509A356277F0AF2006E363F /* HomeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUI.swift; sourceTree = "<group>"; };
+		B509A358277F0BC8006E363F /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		B509A35B277F0DEE006E363F /* HomeNextUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNextUI.swift; sourceTree = "<group>"; };
+		B509A35D277F2A15006E363F /* CustomTabUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabUI.swift; sourceTree = "<group>"; };
+		B509A35F277F2A25006E363F /* CustomTabCellUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabCellUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,8 @@
 			children = (
 				B509A348277F0A1D006E363F /* appuiApp.swift */,
 				B509A34A277F0A1D006E363F /* ContentView.swift */,
+				B509A35A277F0DC3006E363F /* Home */,
+				B509A358277F0BC8006E363F /* Utilities.swift */,
 				B509A34C277F0A21006E363F /* Assets.xcassets */,
 				B509A34E277F0A21006E363F /* Preview Content */,
 			);
@@ -65,6 +77,17 @@
 				B509A34F277F0A21006E363F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B509A35A277F0DC3006E363F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B509A356277F0AF2006E363F /* HomeUI.swift */,
+				B509A35D277F2A15006E363F /* CustomTabUI.swift */,
+				B509A35F277F2A25006E363F /* CustomTabCellUI.swift */,
+				B509A35B277F0DEE006E363F /* HomeNextUI.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B509A359277F0BC8006E363F /* Utilities.swift in Sources */,
+				B509A357277F0AF2006E363F /* HomeUI.swift in Sources */,
 				B509A34B277F0A1D006E363F /* ContentView.swift in Sources */,
+				B509A360277F2A25006E363F /* CustomTabCellUI.swift in Sources */,
+				B509A35C277F0DEE006E363F /* HomeNextUI.swift in Sources */,
+				B509A35E277F2A16006E363F /* CustomTabUI.swift in Sources */,
 				B509A349277F0A1D006E363F /* appuiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

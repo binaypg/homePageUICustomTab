@@ -93,11 +93,11 @@ struct HomeUI: View {
                         .background(
                             Color.white
                                 .shadow(color: Color.black.opacity(0.5), radius: 2, x: 0, y: 0)
-                                   .mask(Rectangle().padding(.top, -2))
+                                .mask(Rectangle().padding(.top, -2))
                         )
                 }
                 
-                 
+                
             }
         }
         

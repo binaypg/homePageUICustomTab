@@ -83,7 +83,10 @@ struct HomeUI: View {
             
             
             ZStack{
-                
+                VStack{
+                    Spacer()
+                    Color.white.frame(height: 40)
+                }.ignoresSafeArea()
                 VStack{
                     Spacer()
                     CustomTabUI(index: $index)
@@ -94,7 +97,7 @@ struct HomeUI: View {
                         )
                 }
                 
-                .ignoresSafeArea()
+                 
             }
         }
         
